@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="./assets/ext/bootstrap4/css/bootstrap.css.map">
 </head>
 <body>
-    <header class="col">
-    
-    </header>
-    <div>
+    <div class="d-flex p-2 bd-highlight">
+        <img src="../assets/img/logo.jpg" alt="">
+    </div>
+    <div id="photo">
     
     </div>
 
