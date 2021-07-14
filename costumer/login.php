@@ -7,8 +7,8 @@
     <title>Masuk</title>
     <link rel="shortcut icon" href="../costumer/assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/ext/fontawesome5/css/all.css">
-    <link rel="stylesheet" href="../assets/ext/bootstrap4/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/ext/bootstrap4/css/bootstrap.css.map">
+    <link rel="stylesheet" href="../assets/ext/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/ext/bootstrap4/css/bootstrap.min.css.map">
     <link rel="stylesheet" href="../costumer/assets/mystyle/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,52 +16,52 @@
 </head>
 <body>
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="../costumer/assets/img/logo0.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+<!-- Image and text -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+        <img src="../costumer/assets/img/logo0.png" alt="" width="10%" height="10%">
         PT JAYA RAYA
-    </a>
+        </a>
     </nav>
-    <div class="container-fluid">
-        <div id="photo">
-            <div class="img-1st">
-                <img src="../costumer/assets/img/img0.png" alt="">
-            <div>
-            <div class="img-2nd">
-                <img src="../costumer/assets/img/img1.jpeg" alt="">
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div id="photo" class="col-md">
+                <img src="../costumer/assets/img/img0.png" alt="" width="400px" height="400px">
             </div>
-            <div class="img-3rd">
-                <img src="../costumer/assets/img/img0.png" alt="">
+            <div id="form" class="col-md">
+                <h3></h3>
+                <br>
+                <form action="post">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">
+                            EMAIL
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">
+                            PASSWORD
+                        </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">REMEMBER ME</label>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-success btn-lg btn-block">MASUK</button>
+                    </div>
+                    <div>
+                        <a href="#"><u>LUPA PASSWORD?</u></a>
+                    </div>
+                    <div class="mt-3">
+                        <button type="submit" class="btn btn-secondary btn-lg btn-block">DAFTAR</button>
+                    </div>
+                </form>
             </div>
-        <div id="form">
-        <h3>LOGIN</h3>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">
-                        EMAIL
-                    </label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">
-                        PASSWORD
-                    </label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">REMEMBER ME</label>
-                </div>
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-success btn-lg btn-block">MASUK</button>
-                </div>
-                <div>
-                    <a href="#"><u>LUPA PASSWORD?</u></a>
-                </div>
-                <div class="mt-3">
-                    <button type="submit" class="btn btn-secondary btn-lg btn-block">DAFTAR</button>
-                </div>
-            </form>
         </div>
     </div>
 

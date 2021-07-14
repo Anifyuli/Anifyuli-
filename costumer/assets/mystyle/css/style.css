@@ -1,9 +1,9 @@
-div .container-fluid {
-    
-    display: flex;
-    margin-top: 1 rem;
-    flex-direction: column;
+#photo {
+  background-color: grey;
 }
-h3{
-    text-align: center;
+
+#form {
+  display: grid;
+  align-items: center;
+  margin: 40px;
 }
