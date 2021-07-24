@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../assets/ext/fontawesome5/css/all.css">
     <link rel="stylesheet" href="../assets/ext/bootstrap4/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/ext/bootstrap4/css/bootstrap.min.css.map">
-    <link rel="stylesheet" href="../costumer/assets/mystyle/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
@@ -26,7 +25,7 @@
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="container my-5" mx-auto>
         <div class="row">
             <div id="photo" class="col-md">
                 <img src="../costumer/assets/img/img0.png" alt="" width="400px" height="400px">
