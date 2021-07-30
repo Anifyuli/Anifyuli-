@@ -53,14 +53,53 @@
         </div>
     </div>
 
-    <div class="container-md" style="border : 2px solid rgb(83, 83, 83); ">
-        <div class="text-primary" style="list-style: none; display : flex; margin : 0 auto;">
-            <h5>570 SISWA</h5>
-            <h5>4 EKSKUL</h5>
-            <h5>33 GURU</h5>
-            <h5>3 GEDUNG</h5>
+    <div id="list" class="container-md my-5">
+        <div class="row text-success p-3" style="border: 3px solid rgb(83, 83, 83); border-radius: 4px; margin : 0 10px 0 10px;">
+            <div class="col">
+                <h4>570 SISWA</h4>
+            </div>
+            <div class="col">
+                <h4>4 EKSKUL</h4>
+            </div>
+            <div class="col">
+                <h4>33 GURU</h4>
+            </div>
+            <div clas="col" >
+                <h4>3 GEDUNG</h4>
+            </div>
         </div>
     </div>
+
+    <div id="card" class="container-md">
+        <h3 class="text-md text-center my-3 mx-auto">UNIT PILIHAN</h3>
+        <div class="row">
+            <div class="col card mx-3" style="width: 18rem;">
+                <img src="./costumer/assets/img/img0.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-secondary" style="font-size : 20px;">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="col card mx-3" style="width: 18rem;">
+                <img src="./costumer/assets/img/img0.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-secondary" style="font-size : 20px;">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="">
+
+    </div>
+
+    <div>
+        
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="./costumer/assets/ext/bootstrap4/js/bootstrap.min.js"></script>
